@@ -1,0 +1,18 @@
+﻿{
+  "defaultAssembly": "ContosoPets.Infrastructure",
+  "modules": [
+    {
+      "type": "ContosoPets.Infrastructure.Modules.WebApiModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "ContosoPets.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+      },
+      "parameters": {
+        "places": 1
+      }
+    }
+  ]
+}

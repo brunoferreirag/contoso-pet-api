@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ContosoPets.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ContosoPets.Api.UseCases.Product.CreateProductUseCaseController.Create(ContosoPets.Api.Models.Product)">
+            <summary>
+            Cria um novo produto no sistema
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+            <response code="200">Produto criado com sucesso!</response>
+        </member>
+        <member name="M:ContosoPets.Api.UseCases.Product.DeleteProductUseCaseController.Delete(System.Int64)">
+            <summary>
+            Exclui um produto pelo seu ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContosoPets.Api.UseCases.Product.GetAllProductUseCaseController.GetAll">
+            <summary>
+            Recupera todos os produtos cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ContosoPets.Api.UseCases.Product.GetProductByIdUseCaseController.GetById(System.Int64)">
+            <summary>
+            Recupera um produto através do id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ContosoPets.Api.UseCases.Product.UpdateProductUseCaseController.Update(ContosoPets.Api.Models.Product)">
+            <summary>
+            Atualiza um produto
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
